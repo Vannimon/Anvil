@@ -1781,11 +1781,11 @@ namespace Anvil
     enum class SamplerReductionMode
     {
         /* VK_EXT_sampler_filter_minmax */
-        WEIGHTED_AVERAGE_EXT = VK_SAMPLER_REDUCTION_MODE_WEIGHTED_AVERAGE_EXT,
-        MAX_EXT              = VK_SAMPLER_REDUCTION_MODE_MAX_EXT,
-        MIN_EXT              = VK_SAMPLER_REDUCTION_MODE_MIN_EXT,
+        WEIGHTED_AVERAGE_EXT = VK_SAMPLER_REDUCTION_MODE_WEIGHTED_AVERAGE,
+        MAX_EXT              = VK_SAMPLER_REDUCTION_MODE_MAX,
+        MIN_EXT              = VK_SAMPLER_REDUCTION_MODE_MIN,
 
-        UNKNOWN = VK_SAMPLER_REDUCTION_MODE_MAX_ENUM_EXT
+        UNKNOWN = VK_SAMPLER_REDUCTION_MODE_MAX_ENUM
     };
 
     /* NOTE: These map 1:1 to VK equivalents */

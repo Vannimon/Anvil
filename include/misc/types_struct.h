@@ -1745,8 +1745,6 @@ namespace Anvil
 
     typedef struct KHRShaderFloatControlsProperties
     {
-        bool separate_denorm_settings;
-        bool separate_rounding_mode_settings;
         bool shader_denorm_flush_to_zero_float16;
         bool shader_denorm_flush_to_zero_float32;
         bool shader_denorm_flush_to_zero_float64;
